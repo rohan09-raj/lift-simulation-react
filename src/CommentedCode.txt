@@ -1,0 +1,17 @@
+Input Floor Logic
+      const [numOfFloors, setNumOfFloors] = useState(0);
+      
+      <form className="app__input">
+        <label>
+          Floors :
+          <input
+            type="number"
+            className="app__input__number"
+            onChange={(e) => setNumOfFloors(e.target.value)}
+          />
+        </label>
+        <label>
+          Lifts :
+          <input type="number" className="app__input__number" />
+        </label>
+      </form>
